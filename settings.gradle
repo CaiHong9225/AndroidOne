@@ -1,0 +1,4 @@
+include ':app', ':lifecycleplugin', ':cevent', ':nanotation', ':customview', ':javamode', ':mvvm',
+        ':basiccomponent:library',
+        ':basiccomponent:tablayout',
+        ':basiccomponent:bottomnavigationbar'

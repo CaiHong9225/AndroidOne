@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="user"
+            type="com.erhii.demo.databinding.User" />
+
+        <variable
+            name="firstName"
+            type="String" />
+
+        <variable
+            name="lastName"
+            type="String" />
+
+        <!--<import-->
+            <!--alias="SUU"-->
+            <!--type="com.erhii.demo.utils.StringUtils" />-->
+    </data>
+    <!--原先的根节点（Root Element）-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/binding_tv1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@{StringUtils.capitalize(user.firstName)}" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/binding_tv2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@{SUU.capitalize(user.lastName)}" />-->
+    </LinearLayout>
+</layout>
